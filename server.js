@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 });
 
 // Connect to MongoDB
-const uri = 'mongodb+srv://yassine1998walid:yassine1998walid@cluster0.mkchkf6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // replace with your MongoDB connection string
+const uri = 'mongodb+srv://donald999focus:uq5vlQ5JcW1yn2jj@cluster0.kpg2ka3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // replace with your MongoDB connection string
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(express.json());
